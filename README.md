@@ -1,3 +1,4 @@
 <h1>Real-Time Digital Clock Display with React</h1>
 <p>This React application, titled "Real-Time Clock Display," demonstrates how to create a digital clock that updates in real-time. The code uses React's state management with the useState hook and the useEffect hook to handle the interval for updating the time. The clock displays the current hour, minute, second, and AM/PM indicator. It ensures that the time is formatted with leading zeros for a consistent and visually pleasing display. Additionally, it includes a cleanup mechanism to clear the interval when the component is unmounted, preventing memory leaks. This code is a great starting point for creating real-time clock components in your React projects.</p>
 ![image](https://github.com/archit-sehgal/ReactDigitalClock/assets/68142222/df49c431-9294-4f44-b2f4-4afc349f0c5c)
+live here:https://react-digital-clock-phi.vercel.app/
