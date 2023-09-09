@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./app.css";
+import './App.css';
 function App() {
   const [hour, setHour] = useState(0);
   const [min, setMin] = useState(0);
