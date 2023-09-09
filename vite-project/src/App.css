@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Roboto:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Righteous
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background: url(https://images.unsplash.com/photo-1517897286832-ba927d20e824?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZGFyayUyMHJhaW58ZW58MHx8MHx8fDA%3D&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.flex{
+    display: flex;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+}
+.timebox{
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: rgba(94, 94, 94, 0.1);
+    backdrop-filter: blur(6px);
+    height: 100vh;
+    width: 100%;
+}
+.timebox p{
+    font-size: 10vw;
+    opacity: .6;
+    width:15vw;
+    text-align: center;
+    background-image: url(https://d3rf6j5nx5r04a.cloudfront.net/bGSoKfqETxOiuP8VfYqYL-qw-A0=/2000x1000/blog/d/6/d/d6d0386e8b9d40fdbee796d62fa57a9b.jpg);
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
